@@ -6,13 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".dasboard"
-    android:background="@drawable/bgbunga">
+    android:background="@drawable/bgblue">
 
     <Button
         android:id="@+id/button2"
         android:layout_width="203dp"
         android:layout_height="53dp"
-        android:backgroundTint="#D8A7B1"
+        android:backgroundTint="#77BEF0"
         android:text="+ add customer"
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="16dp"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
         android:layout_marginTop="30px"
-        android:backgroundTint="#D8A7B1"
+        android:backgroundTint="#77BEF0"
         />
 
     <SearchView
@@ -46,7 +46,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/list1"
-        android:backgroundTint="#D8A7B1"
+        android:backgroundTint="#77BEF0"
         android:layout_width="177dp"
         android:layout_height="400px"
         android:layout_below="@id/button4"
@@ -102,7 +102,7 @@
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:id="@+id/list2"
-        android:backgroundTint="#D8A7B1"
+        android:backgroundTint="#77BEF0"
         android:layout_width="177dp"
         android:layout_height="400px"
         android:layout_below="@id/list1"
@@ -158,7 +158,7 @@
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:id="@+id/list3"
-        android:backgroundTint="#D8A7B1"
+        android:backgroundTint="#77BEF0"
         android:layout_width="177dp"
         android:layout_height="400px"
         android:layout_below="@id/list2"
@@ -220,7 +220,7 @@
         android:layout_below="@id/button4"
         android:layout_marginLeft="220dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="#D8A7B1"
+        android:backgroundTint="#77BEF0"
         app:cardCornerRadius="22px">
 
         <TextView
@@ -268,5 +268,11 @@
             android:text="Alamat    : "
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
+
+
+
+
+
+
 
 </RelativeLayout>
